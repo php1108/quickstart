@@ -36,3 +36,4 @@ Route::group(['middleware' => ['web']], function () {
 
 });
 Route::get('/','TestController@index');
+Route::get('/a','TestController@SM');
